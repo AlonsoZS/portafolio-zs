@@ -2,8 +2,6 @@
     position: sticky;
     top: 0;
     box-shadow: 0 0 6px var(--blue4);
-    z-index: 10;
-    width: 100%;
 }
 
 .header-content {
@@ -18,10 +16,3 @@
     width: 120px;
     height: 40px
 }
-
-/*@media screen and (max-width: 330px) {
-    .header {
-        display: flex;
-        justify-content: center;
-    }
-}*/
