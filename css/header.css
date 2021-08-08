@@ -1,0 +1,25 @@
+.header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 6px var(--blue4);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+    background: var(--blue1);
+}
+
+.header-content img {
+    width: 120px;
+    height: 40px
+}
+
+@media screen and (max-width: 330px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+}

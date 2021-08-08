@@ -1,0 +1,14 @@
+.button-icon{
+    padding: 10px;
+    border-radius: 4px;
+    background: var(--blue1);
+    border: 2px solid var(--blue4);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-icon img{
+    /*Centre el cuadro de relleno de la celda dentro de la fila.*/
+    vertical-align: middle;
+
+}
